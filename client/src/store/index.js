@@ -1,12 +1,12 @@
-import { proxy } from "valtio";
+import { proxy } from 'valtio'
 
 const state = proxy({
-    intro: true,
-    color: "#191970	",
-    isLogoTexture: true,
-    isFullTexture: false,
-    logoDecal: './threejs.png',
-    fullDecal: './threejs.png',
-});
+  intro: true,
+  color: '#E84545',
+  isLogoTexture: true,
+  isFullTexture: false,
+  logoDecal: './D_logo.png',
+  fullDecal: './D_logo.png',
+})
 
-export default state;
+export default state
