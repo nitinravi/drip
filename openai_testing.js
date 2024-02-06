@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import readline from "readline";
 
 const openai = new OpenAI({
-    apiKey: "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"
+    apiKey: "sk-xxxxxx"
 });
 
 const rl = readline.createInterface({
